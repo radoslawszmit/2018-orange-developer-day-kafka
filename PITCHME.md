@@ -1,5 +1,6 @@
 
 ## Budowanie strumieniowych procesów przetwarzania danych w czasie rzeczywistym z użyciem Apache Kafka
+![](assets/img/intro/logo.png)
 
 
 ---?include=kafka/about.md
