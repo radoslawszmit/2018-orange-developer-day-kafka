@@ -13,9 +13,7 @@
 ---?include=slides/kafka/architecture.md
 ---?include=slides/kafka/integration.md
 ---?include=slides/kafka/api-publish-subscribe.md
----?include=slides/kafka/api-publish-subscribe-workshops.md
 ---?include=slides/kafka/api-streams.md
----?include=slides/kafka/api-streams-workshops.md
 ---?include=slides/kafka/api-connect.md
 ---?include=slides/kafka/guarantees.md
 
