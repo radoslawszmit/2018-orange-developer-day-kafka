@@ -18,15 +18,3 @@
 * https://github.com/linkedin/kafka-monitor
 * https://github.com/Landoop/kafka-topics-ui
 
-
-
----
-# Pytania 
-# @fa[question]
-
-
-
----
-<!-- .slide: class="end" -->
-# Dziękuję
-# @fa[coffee]

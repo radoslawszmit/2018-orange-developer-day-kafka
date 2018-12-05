@@ -18,14 +18,17 @@
     width: 75%;
     height: 75%;
 }
+
 .imagecentersize60 img {
     width: 75%;
     height: 75%;
 }
+
 .imagecentersize50 img {
     width: 50%;
     height: 50%;
 }
+
 .imagecentersize10 img {
     width: 10%;
     height: 10%;
@@ -33,32 +36,32 @@
 
 
 
-.font90 li {
+
+.font90, .font90 li, .font90 table {
     font-size: 90% !important;
 }
-.font80 li {
+.font80, .font80 li, .font80 table {
     font-size: 80% !important;
 }
-.font70 li {
+.font70, .font70 li, .font70 table {
     font-size: 70% !important;
 }
-.font60 li {
+.font60, .font60 li, .font60 table {
     font-size: 60% !important;
 }
-.font50 li {
+.font50, .font50 li, .font50 table {
     font-size: 50% !important;
 }
 
 
+
+
 .footer {
-    position: absolute;
-    left: 0;
-    bottom: 40px;
     width: 100%;
     text-align: center;
-    font-size: 10px;
+    font-size: 50% !important;
 }
 
 .footer a {
-    font-size: 10px;
+    font-size: 50% !important;
 }

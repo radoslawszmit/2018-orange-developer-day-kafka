@@ -43,3 +43,9 @@ Kafka -> Kafka  | Streams API (lub Prod/Con API)
 
 
 
++++
+### Ekosystem
+* Integracja z narzędziami **Big Data**: Hadoop, Flume, JDBC, Elasticsearch, Presto, Hive, Camel etc.
+* Integracja z narzędziami do **przetwarzania strumieniowego**: Spark, Storm, Samza, Flink, NiFi, Apex, Spring Cloud Stream etc.
+* Dostępna w większości **dystrybucjach Big Data** (Cloudera, Hortonworks)
+* Integracja z AWS i innymi **chmurami publicznymi**

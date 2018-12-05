@@ -20,3 +20,4 @@
 ---?include=kafka/guarantees.md
 
 ---?include=kafka/summary.md
+---?include=kafka/end.md

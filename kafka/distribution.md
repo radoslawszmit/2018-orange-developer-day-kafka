@@ -15,6 +15,12 @@
 
 
 +++
+### Confluent Platform
+![](assets/img/kafka/distribution/confluentPlatform3.1.png)
+
+
+
++++
 ### Hortonworks Data Platform (HDP)
 ![](assets/img/distribution/hdp-components.png)
 
