@@ -39,7 +39,7 @@
 
 
 +++
-### Popularność w świecie Big Data (dataengweekly.com)
+### Popularność w świecie Big Data
 ![](assets/img/kafka/intro/five-years-of-hadoop-weekly.png)
 
 
