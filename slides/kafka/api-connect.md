@@ -14,7 +14,7 @@
 
 
 +++
-![](assets/img/connect/kafka-connect.png)
+![](assets/img/kafka/connect/kafka-connect.png)
 
 
 
@@ -29,4 +29,4 @@
 
 
 +++
-![](assets/img/connect/kafka-connect-sources-and-sinks.png)
+![](assets/img/kafka/connect/kafka-connect-sources-and-sinks.png)

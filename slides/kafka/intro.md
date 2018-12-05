@@ -4,14 +4,14 @@
 
 +++
 ### Czym jest Apache Kafka?
-![](assets/img/intro/logo.png)
+![](assets/img/kafka/intro/logo.png)
 
 
 
 +++
 <!-- .slide: class="imagecentersize50" -->
 ### Czym jest Apache Kafka?
-![](assets/img/intro/kafka_diagram.png)
+![](assets/img/kafka/intro/kafka_diagram.png)
 
 
 +++
@@ -22,7 +22,7 @@
 
 
 
-+++?image=assets/img/intro/Franz-Kafka.jpg&color=black
++++?image=assets/img/kafka/intro/Franz-Kafka.jpg&color=black
 
 
 
@@ -39,8 +39,8 @@
 
 
 +++
-### Popularność w świecie Big Data
-![](assets/img/intro/five-years-of-hadoop-weekly.png)
+### Popularność w świecie Big Data (dataengweekly.com)
+![](assets/img/kafka/intro/five-years-of-hadoop-weekly.png)
 
 
 
@@ -50,4 +50,4 @@
 * Batch - przetwarzanie wsadowe (offline)
 * Kappa - wszystko jest strumieniem (real-time)
 * Lambda - połączenie Batch i Kappa
-![](assets/img/intro/Diagram_of_Lambda_Architecture_(generic).png)
+![](assets/img/kafka/intro/Diagram_of_Lambda_Architecture_(generic).png)

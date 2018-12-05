@@ -4,25 +4,25 @@
 
 +++
 ### Architektura
-![](assets/img/architecture/Kafka-Broker-Diagram.png)
+![](assets/img/kafka/architecture/Kafka-Broker-Diagram.png)
 
 
 
 +++
 ### Brokerzy
-![](assets/img/architecture/broker-on-disk.png)
+![](assets/img/kafka/architecture/broker-on-disk.png)
 
 
 
 +++
 ### Wiadomości
-![](assets/img/architecture/messages.jpg)
+![](assets/img/kafka/architecture/messages.jpg)
 
 
 
 +++
 ### Segmenty
-![](assets/img/architecture/segments.png)
+![](assets/img/kafka/architecture/segments.png)
 
 
 +++

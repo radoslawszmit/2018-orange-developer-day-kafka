@@ -12,26 +12,26 @@
 
 +++
 ### Problem LinkedIn
-![](assets/img/use-cases/datapipeline_complex.png)
+![](assets/img/kafka/use-cases/datapipeline_complex.png)
 
 
 
 +++
 ### Rozwiązanie LinkedIn
-![](assets/img/use-cases/datapipeline_simple.png)
+![](assets/img/kafka/use-cases/datapipeline_simple.png)
 
 
 
 +++
 <!-- .slide: class="imagecentersize60" -->
 ### Kafka w LinkedIn
-![](assets/img/use-cases/kafka-linkedin.png)
+![](assets/img/kafka/use-cases/kafka-linkedin.png)
 
 
 
 +++
 ### Zastosowania
-![](assets/img/use-cases/chart-kafka-infrastructure.png)
+![](assets/img/kafka/use-cases/chart-kafka-infrastructure.png)
 
 
 +++
@@ -77,7 +77,7 @@
 +++
 <!-- .slide: class="imagecentersize60" -->
 ### Real time analytics
-![](assets/img/use-cases/real-time-analytics.png)
+![](assets/img/kafka/use-cases/real-time-analytics.png)
 
 
 
@@ -92,35 +92,35 @@
 
 +++
 ### Przykład firmy Uber
-![](assets/img/use-cases/kafka-uber.png)
+![](assets/img/kafka/use-cases/kafka-uber.png)
 
 
 
 +++
 ### Przykład firmy Netflix
-![](assets/img/use-cases/kafka-netflix.png)
+![](assets/img/kafka/use-cases/kafka-netflix.png)
 
 
 
 +++
 ### Przykład firmy Netflix
-![](assets/img/use-cases/kafka-netflix-stats.png)
+![](assets/img/kafka/use-cases/kafka-netflix-stats.png)
 
 
 
 +++
 ### Zasilanie Data Lake
-![](assets/img/use-cases/data-lake.png)
+![](assets/img/kafka/use-cases/data-lake.png)
 
 
 
 +++
 <!-- .slide: class="imagecentersize60" -->
 ### Synchronizacja kilku centrów danych
-![](assets/img/use-cases/datacenters.png)
+![](assets/img/kafka/use-cases/datacenters.png)
 
 
 
 +++
 ### Chmury hybrydowe
-![](assets/img/use-cases/ksql-cloud.png)
+![](assets/img/kafka/use-cases/ksql-cloud.png)

@@ -4,7 +4,7 @@
 
 +++
 ### Kafka Logs
-![](assets/img/how-it-works/log.png)
+![](assets/img/kafka/how-it-works/log.png)
 
 
 
@@ -20,56 +20,56 @@
 
 +++
 ### Producenci, konsumenci, topic
-![](assets/img/how-it-works/kafka-architecture.png)
+![](assets/img/kafka/how-it-works/kafka-architecture.png)
 
 
 
 +++
 ### Producenci i konsumenci - niezależny odczyt i zapis
-![](assets/img/how-it-works/log_subscription.png)
+![](assets/img/kafka/how-it-works/log_subscription.png)
 
 
 
 +++
 ### Consumer offset
 <!-- .slide: class="imagecentersize50" -->
-![](assets/img/how-it-works/log_consumer.png)
+![](assets/img/kafka/how-it-works/log_consumer.png)
 
 
 
 +++
 ### Partycje - wydajność i rozproszenie
-![](assets/img/how-it-works/partitioned_log.png)
+![](assets/img/kafka/how-it-works/partitioned_log.png)
 
 
 
 +++
 ### Partycje - gdzie zapisać?
-![](assets/img/how-it-works/log_anatomy.png)
+![](assets/img/kafka/how-it-works/log_anatomy.png)
 
 
 
 +++
 ### Partycje - replikacja
-![](assets/img/how-it-works/replication.jpg)
+![](assets/img/kafka/how-it-works/replication.jpg)
 
 
 
 +++
 ### Grupy konsumentów
-![](assets/img/how-it-works/consumer-group.png)
+![](assets/img/kafka/how-it-works/consumer-group.png)
 
 
 
 +++
 ### Grupy konsumentów
-![](assets/img/how-it-works/consumer-groups.png)
+![](assets/img/kafka/how-it-works/consumer-groups.png)
 
 
 
 +++
 ### Kompaktowanie logów
-![](assets/img/how-it-works/log_compaction_0.png)
+![](assets/img/kafka/how-it-works/log_compaction_0.png)
 
 
 
