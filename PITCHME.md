@@ -1,23 +1,23 @@
 
 ## Budowanie strumieniowych procesów przetwarzania danych w czasie rzeczywistym z użyciem Apache Kafka
-![](assets/img/intro/logo.png)
+![](assets/img/kafka/intro/logo.png)
 
 
----?include=kafka/about.md
+---?include=slides/kafka/about.md
 
 
----?include=kafka/intro.md
----?include=kafka/distribution.md
----?include=kafka/use-cases.md
----?include=kafka/how-it-works.md
----?include=kafka/architecture.md
----?include=kafka/integration.md
----?include=kafka/api-publish-subscribe.md
----?include=kafka/api-publish-subscribe-workshops.md
----?include=kafka/api-streams.md
----?include=kafka/api-streams-workshops.md
----?include=kafka/api-connect.md
----?include=kafka/guarantees.md
+---?include=slides/kafka/intro.md
+---?include=slides/kafka/distribution.md
+---?include=slides/kafka/use-cases.md
+---?include=slides/kafka/how-it-works.md
+---?include=slides/kafka/architecture.md
+---?include=slides/kafka/integration.md
+---?include=slides/kafka/api-publish-subscribe.md
+---?include=slides/kafka/api-publish-subscribe-workshops.md
+---?include=slides/kafka/api-streams.md
+---?include=slides/kafka/api-streams-workshops.md
+---?include=slides/kafka/api-connect.md
+---?include=slides/kafka/guarantees.md
 
----?include=kafka/summary.md
----?include=kafka/end.md
+---?include=slides/kafka/summary.md
+---?include=slides/kafka/end.md
