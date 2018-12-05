@@ -1,0 +1,64 @@
+
+.reveal section img {
+    border: 0;
+    max-height: 80%;
+    max-width: 80%;
+}
+
+.sponsors {
+    font-size: 70% !important;
+}
+
+.sponsors img {
+    width: 30%;
+    height: 30%;
+}
+
+.imagecentersize75 img {
+    width: 75%;
+    height: 75%;
+}
+.imagecentersize60 img {
+    width: 75%;
+    height: 75%;
+}
+.imagecentersize50 img {
+    width: 50%;
+    height: 50%;
+}
+.imagecentersize10 img {
+    width: 10%;
+    height: 10%;
+}
+
+
+
+.font90 li {
+    font-size: 90% !important;
+}
+.font80 li {
+    font-size: 80% !important;
+}
+.font70 li {
+    font-size: 70% !important;
+}
+.font60 li {
+    font-size: 60% !important;
+}
+.font50 li {
+    font-size: 50% !important;
+}
+
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+}
+
+.footer a {
+    font-size: 10px;
+}
