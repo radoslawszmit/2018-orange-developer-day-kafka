@@ -16,7 +16,7 @@
 
 +++
 ### Confluent Platform
-![](assets/img/kafka/distribution/confluentPlatform3.1.png)
+![](assets/img/distribution/confluentPlatform3.1.png)
 
 
 
