@@ -19,15 +19,14 @@
 ### Producer API
 ~~~java
 Properties producerConfig = new Properties();
-producerConfig.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, 
-    KAFKA_SERVER);
-producerConfig.put(ProducerConfig.CLIENT_ID_CONFIG, "");
-producerConfig.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, 
+producerConfig.put(BOOTSTRAP_SERVERS_CONFIG, KAFKA_SERVER);
+producerConfig.put(CLIENT_ID_CONFIG, "");
+producerConfig.put(KEY_SERIALIZER_CLASS_CONFIG, 
     StringSerializer.class.getName());
-producerConfig.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, 
+producerConfig.put(VALUE_SERIALIZER_CLASS_CONFIG, 
     StringSerializer.class.getName());
-producerConfig.put(ProducerConfig.ACKS_CONFIG, "all");
-producerConfig.put(ProducerConfig.RETRIES_CONFIG, 1);
+producerConfig.put(ACKS_CONFIG, "all");
+producerConfig.put(RETRIES_CONFIG, 1);
 
 Producer<String, String> producer 
     = new KafkaProducer<>(producerConfig);
@@ -51,16 +50,15 @@ producer.close();
 ### Consumer API
 ~~~java
 Properties consumerConfig = new Properties();
-consumerConfig.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, 
-    KAFKA_SERVER);
-consumerConfig.put(ConsumerConfig.GROUP_ID_CONFIG, CONSUMER_GROUP);
-consumerConfig.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, 
+consumerConfig.put(BOOTSTRAP_SERVERS_CONFIG, KAFKA_SERVER);
+consumerConfig.put(GROUP_ID_CONFIG, CONSUMER_GROUP);
+consumerConfig.put(VALUE_DESERIALIZER_CLASS_CONFIG, 
     StringDeserializer.class.getName());
-consumerConfig.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, 
+consumerConfig.put(KEY_DESERIALIZER_CLASS_CONFIG, 
     StringDeserializer.class.getName());
-consumerConfig.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG,
+consumerConfig.put(AUTO_OFFSET_RESET_CONFIG,
     "earliest");
-consumerConfig.put(ConsumerConfig.ENABLE_AUTO_COMMIT_CONFIG, true);
+consumerConfig.put(ENABLE_AUTO_COMMIT_CONFIG, true);
 
 KafkaConsumer<String, String> consumer 
     = new KafkaConsumer<>(consumerConfig);
