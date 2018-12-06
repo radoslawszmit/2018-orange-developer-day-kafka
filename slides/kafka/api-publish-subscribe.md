@@ -52,9 +52,14 @@ producer.close();
 ~~~java
 Properties consumerConfig = new Properties();
 consumerConfig.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, KAFKA_SERVER);
-consumerConfig.put(ConsumerConfig.GROUP_ID_CONFIG, "group-name");
-consumerConfig.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getCanonicalName());
-consumerConfig.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getCanonicalName());
+consumerConfig.put(ConsumerConfig.GROUP_ID_CONFIG, CONSUMER_GROUP);
+consumerConfig.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, 
+    StringDeserializer.class.getName());
+consumerConfig.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, 
+    StringDeserializer.class.getName());
+consumerConfig.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG,
+    "earliest");
+consumerConfig.put(ConsumerConfig.ENABLE_AUTO_COMMIT_CONFIG, true);
 
 KafkaConsumer<String, String> consumer = new KafkaConsumer<>(consumerConfig);
 consumer.subscribe(Collections.singletonList(TOPIC));
@@ -72,7 +77,7 @@ if (records.count() > 0) {
 consumer.commitAsync();
 consumer.close();
 ~~~
-@[1-5](Konfiguracja)
+@[1-8](Konfiguracja)
 @[7](Kafka konsument)
 @[8](Subskrybcja do kolejki)
 @[10](Pobranie wiadomości z topicu)
