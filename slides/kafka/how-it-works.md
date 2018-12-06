@@ -45,27 +45,6 @@
 
 
 
-+++
-<!-- .slide: class="font90" -->
-### Consumer offset
-* Każdy offset to maksymalnie Long.MAX_VALUE (nie można zresetować)
-* Offset jest oddzielny dla każdej partycji
-* Zakładając sto wiadomości na sekundę (na partycję) limit spotkamy za 3 miliardy lat
-* Nasza planeta będzie nadawała się do życia prawdopodobnie tylko przez miliard lat
-* Zakładając milion wiadomości na sekundę (na partycję) limit spotkamy za 300 tysięcy lat
-
-
-+++
-<!-- .slide: class="font90" -->
-### Topiki
-* Nie ma teoretycznego limitu liczby topików
-* Ze względów wydajnościowych nie zaleca się przekraczanie 4000 partycji na brokera i 200 000 partycji w klastrze
-* Wiadomości trzymane są domyślnie 168 godzin (7 dni)
-* Można także ograniczyć maksymalną wielkość logu (domyślnie brak limitu)
-<br/><span class="footer">https://www.confluent.io/blog/apache-kafka-supports-200k-partitions-per-cluster</span>
-
-
-
 
 +++
 ### Wiadomości
@@ -95,6 +74,27 @@
 * Warto korzystać z formatów typu Avro (schemat)
 * Możliwość kompresji wiadomości
 
+
+
++++
+<!-- .slide: class="font90" -->
+### Topiki
+* Nie ma teoretycznego limitu liczby topików
+* Ze względów wydajnościowych nie zaleca się przekraczanie 4000 partycji na brokera i 200 000 partycji w klastrze
+* Wiadomości trzymane są domyślnie 168 godzin (7 dni)
+* Można także ograniczyć maksymalną wielkość logu (domyślnie brak limitu)
+<br/><span class="footer">https://www.confluent.io/blog/apache-kafka-supports-200k-partitions-per-cluster</span>
+
+
+
++++
+<!-- .slide: class="font90" -->
+### Consumer offset
+* Każdy offset to maksymalnie Long.MAX_VALUE (nie można zresetować)
+* Offset jest oddzielny dla każdej partycji
+* Zakładając sto wiadomości na sekundę (na partycję) limit spotkamy za 3 miliardy lat
+* Nasza planeta będzie nadawała się do życia prawdopodobnie tylko przez miliard lat
+* Zakładając milion wiadomości na sekundę (na partycję) limit spotkamy za 300 tysięcy lat
 
 
 
