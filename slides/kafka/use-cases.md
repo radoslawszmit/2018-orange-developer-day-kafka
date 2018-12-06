@@ -4,13 +4,6 @@
 
 
 +++
-### Zastosowania
-* Narzędzie do efektywnego strumieniowego przesyłania danych pomiędzy systemami i aplikacjami 
-* Narzędzie do przetwarzania strumieni danych
-* Narzędzie do reagowania na zdarzenia
-
-
-+++
 ### Problem LinkedIn
 ![](assets/img/kafka/use-cases/datapipeline_complex.png)
 
@@ -35,31 +28,13 @@
 
 
 +++
-### Integracja systemów
-* SOA
-* Mikroserwisy
-* ESB
-* Message Broker
-
-
-+++
-### Message Broker
-* Amazon Web Services (AWS) Simple Queue Service (SQS)
-* Apache ActiveMQ
-* Apache Apollo
-* RabbitMQ
-* Apache Qpid
-
-
-
-+++
-### Systemy oparte o dane i zdarzenia
-* Internet Of Things (IoT)
-* Systemy trackingowe
-* Monitoring, metryki
-* Zbieranie logów
-* Event Sourcing
+### Zastosowania
+* Mikroserwisy, SOA, ESB, Message Broker
+* Monitoring, Tracking, Logi
+* Przepływy danych (Big Data, IoT)
+* Analityka
 * Wejście do naszego systemu
+* Synchronizacja (chmury, kilka DC) 
 
 
 

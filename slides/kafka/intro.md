@@ -17,7 +17,7 @@
 +++
 ### Czym jest Apache Kafka?
 * Kolejka danych, message broker (publish / subscribe)
-* Rozproszona “baza danych” (distributed commit log)
+* Rozproszona baza danych (distributed commit log)
 * Przetwarzanie strumieniowe danych (stream processing)
 
 
@@ -37,6 +37,13 @@
 * Narzędzie Big Data (terabajty danych, miliony zdarzeń na sekundę)
 
 
++++
+### Cechy
+* Otwarty kod
+* Licencja Apache 2.0
+![](assets/img/kafka/distribution/2000px-Apache_Software_Foundation_Logo.svg.png)
+
+
 
 +++
 ### Popularność w świecie Big Data
@@ -51,3 +58,12 @@
 * Kappa - wszystko jest strumieniem (real-time)
 * Lambda - połączenie Batch i Kappa
 ![](assets/img/kafka/intro/Diagram_of_Lambda_Architecture_(generic).png)
+
+
+
++++
+### Wdrażanie Kafki
+* Paczka Apache
+* Kontenery (Docker, Kubernetes)
+* Dystrybucje Big Data
+* Chmury obliczeniowe
