@@ -5,7 +5,7 @@
 +++
 ### Kafka Logs
 ![](assets/img/kafka/how-it-works/log.png)
-<br/><span class="footer">https://www.confluent.io/blog/okay-store-data-apache-kafka/</span>
+<br/><span class="footer">https://www.confluent.io/blog/okay-store-data-apache-kafka</span>
 
 
 
@@ -22,6 +22,7 @@
 +++
 ### Producenci, konsumenci, topic
 ![](assets/img/kafka/how-it-works/kafka-architecture.png)
+<br/><span class="footer">https://www.cloudera.com/documentation/kafka/1-2-x/topics/kafka.html</span>
 
 
 
