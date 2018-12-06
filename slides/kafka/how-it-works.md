@@ -56,6 +56,7 @@
 
 
 +++
+<!-- .slide: class="font80" -->
 ### Consumer offset
 * Każdy offset to maksymalnie Long.MAX_VALUE (nie można zresetować)
 * Offset jest oddzielny dla każdej partycji
