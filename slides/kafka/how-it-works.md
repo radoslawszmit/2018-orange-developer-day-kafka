@@ -55,14 +55,14 @@
 <!-- .slide: class="imagecentersize50" -->
 ### Partycje - replikacja
 ![](assets/img/kafka/how-it-works/replication.jpg)
-<span class="footer">https://www.confluent.io/blog/hands-free-kafka-replication-a-lesson-in-operational-simplicity/</span>
+<br /><span class="footer">https://www.confluent.io/blog/hands-free-kafka-replication-a-lesson-in-operational-simplicity/</span>
 
 
 +++
 ### Partycje - replikacja
 <!-- .slide: class="imagecentersize50" -->
 ![](assets/img/kafka/how-it-works/replication-lagging.jpg)
-<span class="footer">https://www.confluent.io/blog/hands-free-kafka-replication-a-lesson-in-operational-simplicity/</span>
+<br /><span class="footer">https://www.confluent.io/blog/hands-free-kafka-replication-a-lesson-in-operational-simplicity/</span>
 
 
 
