@@ -7,7 +7,6 @@
 
 
 ---?include=slides/kafka/intro.md
----?include=slides/kafka/distribution.md
 ---?include=slides/kafka/use-cases.md
 ---?include=slides/kafka/how-it-works.md
 ---?include=slides/kafka/architecture.md

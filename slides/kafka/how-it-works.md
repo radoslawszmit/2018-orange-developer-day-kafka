@@ -56,6 +56,16 @@
 
 
 +++
+### Consumer offset
+* Każdy offset to maksymalnie Long.MAX_VALUE (nie można zresetować)
+* Offset jest oddzielny dla każdej partycji
+* Zakładając **sto** wiadomości na sekundę limit spotkamy za 3 miliardy lat
+* Nasza planeta będzie nadawała się do życia przez 1 - 2 mld lat
+* Zakładając **milion** wiadomości na sekundę limit spotkamy za 300 tysięcy lat
+
+
+
++++
 ### Grupy konsumentów
 ![](assets/img/kafka/how-it-works/consumer-group.png)
 
