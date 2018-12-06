@@ -78,6 +78,14 @@
 
 
 +++
+<!-- .slide: class="font90" -->
+### Message limit
+* Kafka potrafi przetwarzać duże zbiory danych (sumarycznie)
+* Jednak pracuje najlepiej z małymi wiadomościami
+* Jeśli chcemy obsługiwać wiadomości z dużymi załącznikami to najlepiej podzielić je na mniejsze fragmenty lub użyć zewnętrznego dodatkowego narzędzia do ich składowania
+
+
++++
 ### Grupy konsumentów
 ![](assets/img/kafka/how-it-works/consumer-group.png)
 
