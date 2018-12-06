@@ -51,7 +51,8 @@ producer.close();
 ### Consumer API
 ~~~java
 Properties consumerConfig = new Properties();
-consumerConfig.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, KAFKA_SERVER);
+consumerConfig.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, 
+    KAFKA_SERVER);
 consumerConfig.put(ConsumerConfig.GROUP_ID_CONFIG, CONSUMER_GROUP);
 consumerConfig.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, 
     StringDeserializer.class.getName());
@@ -61,10 +62,12 @@ consumerConfig.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG,
     "earliest");
 consumerConfig.put(ConsumerConfig.ENABLE_AUTO_COMMIT_CONFIG, true);
 
-KafkaConsumer<String, String> consumer = new KafkaConsumer<>(consumerConfig);
+KafkaConsumer<String, String> consumer 
+    = new KafkaConsumer<>(consumerConfig);
 consumer.subscribe(Collections.singletonList(TOPIC));
 
-ConsumerRecords<String, String> records = consumer.poll(TIMEOUT);
+ConsumerRecords<String, String> records
+    = consumer.poll(TIMEOUT);
 
 if (records.count() > 0) {
     LOGGER.info("Poll records: " + records.count());
