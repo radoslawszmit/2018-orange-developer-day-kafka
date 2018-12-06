@@ -40,10 +40,10 @@ producer.flush();
 producer.close();
 ~~~
 @[1-10](Konfiguracja)
-@[12](Kafka producent)
-@[14](Rekord wiadomośći (klucz - wartość))
-@[15](Wysłanie wiadomości (do bufora))
-@[17-18](Wysłanie bufora, zamknięcie producenta)
+@[12-13](Kafka producent)
+@[16-17](Rekord wiadomośći (klucz - wartość))
+@[18](Wysłanie wiadomości (do bufora))
+@[20-21](Wysłanie bufora, zamknięcie producenta)
 
 
 
