@@ -72,14 +72,3 @@ consumer.close();
 @[12-18](Pobranie wiadomości z topicu)
 @[20](Offsets commit)
 @[21](Zamykamy odbiorcę)
-
-
-
-+++
-### Przykłady ze źródeł Kafki
-
-(przykłady z użyciem wątków Java)
-
-https://github.com/apache/kafka/tree/trunk/examples/src/main/java/kafka/examples
-
-
