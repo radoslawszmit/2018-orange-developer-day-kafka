@@ -45,22 +45,6 @@
 
 
 
-
-+++
-<!-- .slide: class="imagecentersize50" -->
-### Partycje - replikacja
-![](assets/img/kafka/how-it-works/replication.jpg)
-<br /><span class="footer">https://www.confluent.io/blog/hands-free-kafka-replication-a-lesson-in-operational-simplicity/</span>
-
-
-+++
-<!-- .slide: class="imagecentersize50" -->
-### Replikacja -  ISR (in-sync replica)
-![](assets/img/kafka/how-it-works/replication-lagging.jpg)
-<br /><span class="footer">https://www.confluent.io/blog/hands-free-kafka-replication-a-lesson-in-operational-simplicity/</span>
-
-
-
 +++
 <!-- .slide: class="font90" -->
 ### Consumer offset
@@ -81,6 +65,7 @@
 <br/><span class="footer">https://www.confluent.io/blog/apache-kafka-supports-200k-partitions-per-cluster</span>
 
 
+
 +++
 <!-- .slide: class="font90" -->
 ### Wiadomości
@@ -89,12 +74,29 @@
 * Jeśli chcemy obsługiwać wiadomości z dużymi załącznikami to najlepiej podzielić je na mniejsze fragmenty lub użyć zewnętrznego dodatkowego narzędzia do ich składowania
 
 
+
 +++
 ### Wiadomości
 * Każda wiadomość to klucz, wartość i metadane
 * Kafkę nie interesuje format danych (używamy dowolnej serializacji)
 * Warto korzystać z formatów typu Avro (schemat)
 * Możliwość kompresji wiadomości
+
+
+
+
++++
+<!-- .slide: class="imagecentersize50" -->
+### Partycje - replikacja
+![](assets/img/kafka/how-it-works/replication.jpg)
+<br /><span class="footer">https://www.confluent.io/blog/hands-free-kafka-replication-a-lesson-in-operational-simplicity/</span>
+
+
++++
+<!-- .slide: class="imagecentersize50" -->
+### Replikacja -  ISR (in-sync replica)
+![](assets/img/kafka/how-it-works/replication-lagging.jpg)
+<br /><span class="footer">https://www.confluent.io/blog/hands-free-kafka-replication-a-lesson-in-operational-simplicity/</span>
 
 
 
