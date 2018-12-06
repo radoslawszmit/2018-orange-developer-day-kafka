@@ -20,6 +20,12 @@
 
 
 +++
+### Partycje - wydajność i rozproszenie
+![](assets/img/kafka/how-it-works/log_anatomy.png)
+
+
+
++++
 ### Producenci, konsumenci, topic
 ![](assets/img/kafka/how-it-works/kafka-architecture.png)
 <br/><span class="footer">https://www.cloudera.com/documentation/kafka/1-2-x/topics/kafka.html</span>
@@ -37,17 +43,6 @@
 <!-- .slide: class="imagecentersize50" -->
 ![](assets/img/kafka/how-it-works/log_consumer.png)
 
-
-
-+++
-### Partycje - wydajność i rozproszenie
-![](assets/img/kafka/how-it-works/partitioned_log.png)
-
-
-
-+++
-### Partycje - gdzie zapisać?
-![](assets/img/kafka/how-it-works/log_anatomy.png)
 
 
 
