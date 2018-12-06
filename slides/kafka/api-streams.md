@@ -37,27 +37,38 @@
 ### Streams API
 ~~~java
 Properties config = new Properties();
-config.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, KAFKA_SERVER);
-config.put(StreamsConfig.APPLICATION_ID_CONFIG, "wordcount");
-config.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String().getClass().getName());
-config.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, Serdes.String().getClass().getName());
+config.put(BOOTSTRAP_SERVERS_CONFIG, KAFKA_SERVER);
+config.put(APPLICATION_ID_CONFIG, "wordcount");
+config.put(DEFAULT_KEY_SERDE_CLASS_CONFIG, 
+    Serdes.String().getClass().getName());
+config.put(DEFAULT_VALUE_SERDE_CLASS_CONFIG, 
+    Serdes.String().getClass().getName());
 
 StreamsBuilder builder = new StreamsBuilder();
+
 KStream<String, String> textLines = builder.stream(TOPIC);
+
 KTable<String, Long> wordCounts = textLines
-    .flatMapValues(textLine -> Arrays.asList(textLine.toLowerCase().split("\\W+")))
+    .flatMapValues(textLine -> 
+        Arrays.asList(textLine.toLowerCase().split("\\W+")))
     .groupBy((key, word) -> word)
     .count(Materialized.as("counts-store"));
 
-wordCounts.toStream().to(TOPIC_OUT, Produced.with(Serdes.String(), Serdes.Long()));
+wordCounts.toStream().to(TOPIC_OUT, 
+    Produced.with(Serdes.String(), Serdes.Long()));
 
 KafkaStreams streams = new KafkaStreams(builder.build(), config);
 streams.start();
+
+Runtime.getRuntime().addShutdownHook(new Thread(streams::close));
 ~~~
-@[1-5](Konfiguracja)
-@[6-12](Kafka Streams)
-@[14](Zapis wyniku do Kafki)
-@[16-17](Wysłanie wiadomości (do bufora))
+@[1-7](Konfiguracja)
+@[9](Kafka Stream Builder)
+@[11](Strumień)
+@[13-17](Kafka Streams)
+@[19-20](Zapis wyniku do topicu Kafki)
+@[22-23](Uruchomienie)
+@[25](Eleganckie wyjście)
 
 
 
