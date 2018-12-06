@@ -38,11 +38,11 @@ producer.send(data);
 producer.flush();
 producer.close();
 ~~~
-@[1-10](Konfiguracja)
-@[12-13](Kafka producent)
-@[15-16](Rekord wiadomośći (klucz - wartość))
-@[17](Wysłanie wiadomości (do bufora))
-@[19-20](Wysłanie bufora, zamknięcie producenta)
+@[1-9](Konfiguracja)
+@[11-12](Kafka producent)
+@[14-15](Rekord wiadomośći (klucz - wartość))
+@[16](Wysłanie wiadomości (do bufora))
+@[18-19](Wysłanie bufora, zamknięcie producenta)
 
 
 
@@ -56,8 +56,7 @@ consumerConfig.put(VALUE_DESERIALIZER_CLASS_CONFIG,
     StringDeserializer.class.getName());
 consumerConfig.put(KEY_DESERIALIZER_CLASS_CONFIG, 
     StringDeserializer.class.getName());
-consumerConfig.put(AUTO_OFFSET_RESET_CONFIG,
-    "earliest");
+consumerConfig.put(AUTO_OFFSET_RESET_CONFIG, "earliest");
 consumerConfig.put(ENABLE_AUTO_COMMIT_CONFIG, true);
 
 KafkaConsumer<String, String> consumer 
@@ -78,10 +77,10 @@ if (records.count() > 0) {
 consumer.commitAsync();
 consumer.close();
 ~~~
-@[1-8](Konfiguracja)
-@[7](Kafka konsument)
-@[8](Subskrybcja do kolejki)
-@[10](Pobranie wiadomości z topicu)
-@[12-18](Pobranie wiadomości z topicu)
-@[20](Offsets commit)
-@[21](Zamykamy odbiorcę)
+@[1-9](Konfiguracja)
+@[11-12](Kafka konsument)
+@[13](Subskrybcja do kolejki)
+@[14-15](Pobranie wiadomości z topicu)
+@[17-23](Obsługa wiadomości z topicu)
+@[25](Offsets commit)
+@[26](Zamykamy odbiorcę)
