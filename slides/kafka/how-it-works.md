@@ -5,6 +5,7 @@
 +++
 ### Kafka Logs
 ![](assets/img/kafka/how-it-works/log.png)
+<br/><span class="footer">https://www.confluent.io/blog/okay-store-data-apache-kafka/</span>
 
 
 
