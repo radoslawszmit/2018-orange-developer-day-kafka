@@ -27,6 +27,7 @@
 ![](assets/img/kafka/use-cases/chart-kafka-infrastructure.png)
 
 
+
 +++
 ### Zastosowania
 * Mikroserwisy, SOA, ESB, Message Broker
@@ -34,18 +35,6 @@
 * Przepływy danych (Big Data, IoT)
 * Analityka
 * Wejście do naszego systemu
-* Synchronizacja (chmury, kilka DC) 
-
-
-
-+++
-### Przetwarzanie strumieniowe
-* Kafka Streams
-* Spark Streaming
-* Akka Streams
-* Samza
-* Flink
-* NiFi
 
 
 
@@ -53,15 +42,6 @@
 <!-- .slide: class="imagecentersize60" -->
 ### Real time analytics
 ![](assets/img/kafka/use-cases/real-time-analytics.png)
-
-
-
-+++
-### Flow Managment & ETL
-* NiFi
-* Flume
-* Logstash
-* Pentaho Data Integration (Kettle)
 
 
 

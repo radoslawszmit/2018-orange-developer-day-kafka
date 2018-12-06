@@ -19,7 +19,17 @@
 * Akka Streams
 * Samza
 * Flink
+* Custom Code
+
+
+
++++
+### Flow Managment & ETL
 * NiFi
+* Flume
+* Logstash
+* Fluent
+* Pentaho Data Integration (Kettle)
 
 
 
