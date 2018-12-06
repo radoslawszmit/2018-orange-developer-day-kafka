@@ -69,7 +69,7 @@
 
 +++
 <!-- .slide: class="font90" -->
-### Topic limit
+### Topiki
 * Nie ma teoretycznego limitu liczby topików
 * Ze względów wydajnościowych nie zaleca się przekraczanie 4000 partycji na brokera i 200 000 partycji w klastrze
 * Wiadomości trzymane są domyślnie 168 godzin (7 dni)
@@ -79,10 +79,19 @@
 
 +++
 <!-- .slide: class="font90" -->
-### Message limit
+### Wiadomości
 * Kafka potrafi przetwarzać duże zbiory danych (sumarycznie)
-* Jednak pracuje najlepiej z małymi wiadomościami
+* Jednak pracuje najlepiej z małymi wiadomościami (domyślnie 1MB limit)
 * Jeśli chcemy obsługiwać wiadomości z dużymi załącznikami to najlepiej podzielić je na mniejsze fragmenty lub użyć zewnętrznego dodatkowego narzędzia do ich składowania
+
+
++++
+### Wiadomości
+* Każda wiadomość to klucz, wartość i metadane
+* Kafkę nie interesuje format danych (używamy dowolnej serializacji)
+* Warto korzystać z formatów typu Avro (schemat)
+* Możliwość kompresji wiadomości
+
 
 
 +++
@@ -101,15 +110,3 @@
 ### Kompaktowanie logów
 ![](assets/img/kafka/how-it-works/log_compaction_0.png)
 
-
-
-+++
-### Kompresja
-* Możliwość kompresji wiadomości
-* Przydatne przy dużych paczkach (batch) wiadomości
-* Aktywacja za pomocą *compression.type*
-* Możliwe opcje: gzip, snappy, lz4, uncompressed, **producer**
-* Gdy kompresuje producent (zalecane)
-    * brokerzy oszczędzają zasoby
-    * mniej danych kopiowanych jest po sieci
-* Zalecane dla danych które nie są binarne (xml, json, tekst)
