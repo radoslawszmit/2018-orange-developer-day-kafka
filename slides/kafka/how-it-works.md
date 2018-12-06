@@ -69,10 +69,10 @@
 <!-- .slide: class="font90" -->
 ### Topic limit
 * Nie ma teoretycznego limitu liczby topików
-* Ze względów wydajnościowych nie zaleca się przekraczanie 4000 partycji na brokera
+* Ze względów wydajnościowych nie zaleca się przekraczanie 4000 partycji na brokera i 200 000 partycji w klastrze
 * Wiadomości trzymane są domyślnie 168 godzin (7 dni)
 * Można także ograniczyć maksymalną wielkość logu (domyślnie brak limitu)
-
+<br/><span class="footer">https://www.confluent.io/blog/apache-kafka-supports-200k-partitions-per-cluster</span>
 
 
 +++
