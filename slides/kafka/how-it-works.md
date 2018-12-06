@@ -66,6 +66,19 @@
 
 
 
+
++++
+### Wiadomości
+![](assets/img/kafka/architecture/messages.jpg)
+
+
+
++++
+### Segmenty
+![](assets/img/kafka/architecture/segments.png)
+
+
+
 +++
 <!-- .slide: class="font90" -->
 ### Wiadomości
