@@ -60,9 +60,9 @@
 ### Consumer offset
 * Każdy offset to maksymalnie Long.MAX_VALUE (nie można zresetować)
 * Offset jest oddzielny dla każdej partycji
-* Zakładając **sto** wiadomości na sekundę limit spotkamy za 3 miliardy lat
+* Zakładając sto wiadomości na sekundę limit spotkamy za 3 miliardy lat
 * Nasza planeta będzie nadawała się do życia prawdopodobnie tylko przez miliard lat
-* Zakładając **milion** wiadomości na sekundę limit spotkamy za 300 tysięcy lat
+* Zakładając milion wiadomości na sekundę limit spotkamy za 300 tysięcy lat
 
 
 
