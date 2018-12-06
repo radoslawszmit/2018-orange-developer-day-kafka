@@ -8,7 +8,7 @@
 * Integralna część Apache Kafka
 * Jest to zwykła aplikacja (Java) bez potrzeby dodatkowej instalacji "workerów"
 * Skalowalność, elastyczność, odporność na awarie
-* Exactly Once Delivery
+* Exactly Once Delivery (pod pewnymi warunkami)
 * Wprowadzono w Kafka 0.10.x (Maj 2016 r.)
 
 
@@ -30,16 +30,6 @@
 * Logstash
 * Fluent
 * Pentaho Data Integration (Kettle)
-
-
-
-+++
-### Który wybrać?
-* Micro batch lub single data streaming
-* Praca w klastrze lub zwykła aplikacja
-* Skalowalność (rozbudowa czy włączenie nowego procesu/aplikacji)
-* Wsparcie dla "Exactly Once Delivery"
-* Biblioteka, platforma czy narzędzie drag & drop
 
 
 
@@ -69,3 +59,13 @@ streams.start();
 @[14](Zapis wyniku do Kafki)
 @[16-17](Wysłanie wiadomości (do bufora))
 
+
+
+
++++
+### Który wybrać?
+* Micro batch lub single data streaming
+* Praca w klastrze lub zwykła aplikacja
+* Skalowalność (rozbudowa czy włączenie nowego procesu/aplikacji)
+* Wsparcie dla "Exactly Once Delivery"
+* Biblioteka, platforma czy narzędzie drag & drop
