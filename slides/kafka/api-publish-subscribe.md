@@ -23,6 +23,8 @@ producerConfig.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, KAFKA_SERVER);
 producerConfig.put(ProducerConfig.CLIENT_ID_CONFIG, "");
 producerConfig.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
 producerConfig.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
+producerConfig.put(ProducerConfig.ACKS_CONFIG, "all");
+producerConfig.put(ProducerConfig.RETRIES_CONFIG, 1);
 
 Producer<String, String> producer = new KafkaProducer<>(producerConfig);
 
@@ -32,11 +34,11 @@ producer.send(data);
 producer.flush();
 producer.close();
 ~~~
-@[1-5](Konfiguracja)
-@[7](Kafka producent)
-@[9](Rekord wiadomośći (klucz - wartość))
-@[10](Wysłanie wiadomości (do bufora))
-@[12-13](Wysłanie bufora, zamknięcie producenta)
+@[1-7](Konfiguracja)
+@[9](Kafka producent)
+@[11](Rekord wiadomośći (klucz - wartość))
+@[12](Wysłanie wiadomości (do bufora))
+@[14-15](Wysłanie bufora, zamknięcie producenta)
 
 
 
