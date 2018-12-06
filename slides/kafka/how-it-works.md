@@ -65,6 +65,15 @@
 * Zakładając milion wiadomości na sekundę (na partycję) limit spotkamy za 300 tysięcy lat
 
 
++++
+<!-- .slide: class="font90" -->
+### Topic limit
+* Nie ma teoretycznego limitu liczby topików
+* Ze względów wydajnościowych nie zaleca się przekraczanie 4000 partycji na brokera
+* Wiadomości trzymane są domyślnie 168 godzin (7 dni)
+* Można także ograniczyć maksymalną wielkość logu (domyślnie brak limitu)
+
+
 
 +++
 ### Grupy konsumentów
