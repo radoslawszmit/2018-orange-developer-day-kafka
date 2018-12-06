@@ -59,8 +59,8 @@
 
 
 +++
-### Partycje - replikacja
 <!-- .slide: class="imagecentersize50" -->
+### Replikacja -  ISR (in-sync replica)
 ![](assets/img/kafka/how-it-works/replication-lagging.jpg)
 <br /><span class="footer">https://www.confluent.io/blog/hands-free-kafka-replication-a-lesson-in-operational-simplicity/</span>
 
